@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body {
+    height: 100vh;
+    width: 100vw;
+} */
+ html {
+    background-color: beige;
+ }
+.container {
+    background-color: beige;
+    width: 1212px;
+    height: 100vh;
+    
+}
+#green {
+    margin-top: 45px;
+    width: 1190px;
+    background-color: green;
+    height: 10vh;
+    margin-left: 10px;
+}
+main {
+    margin: 10px 20px;
+    height: 100vh;
+    width: 95vw;
+    background-color: whitesmoke;
+}
+nav ul {
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+}
+nav ul li {
+    list-style: none;
+    margin: 20px 20px -30px;
+}
+/* sign out button style */
+nav ul #sign-out {
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 5px 25px;
+    position: relative;
+    top: 5px;
+    left: 50px;
+}
+#ul-list {
+    position: relative;
+    right: 280px;
+    margin-right: 10px;
+}
+#ul-list li:nth-child(1) {
+    position: relative;
+    left: 40px;
+    
+}
+#ul-list li:nth-child(2) {
+    position: relative;
+    left: 100px;
+    
+}
+
+#ul-list li:nth-child(3) {
+    position: relative;
+    left: 145px;
+}
+
+#ul-list li:nth-child(4) {
+    position: relative;
+    left: 185px;
+}
+
+#ul-list li:nth-child(5) {
+    position: relative;
+    left: 170px;
+    bottom: 12px;
+    font-size: 15px;
+}
+
+footer {
+    background-color: beige;
+}
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer ul li {
+    list-style: none;
+
+}
+hr {
+    font-weight: bolder;
+    color: black;
+}
