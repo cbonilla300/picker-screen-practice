@@ -12,10 +12,7 @@
     box-sizing: border-box;
     
 }
-/* body {
-    height: 100vh;
-    width: 100vw;
-} */
+
  
 .container,html {
     background-color: hsl(40, 50%, 91%);
@@ -33,7 +30,7 @@
 }
 main {
     margin: 10px 20px;
-    height: 100vh;
+    height: 90vh;
     width: 95vw;
     background-color: whitesmoke;
     /* box-shadow: 5px, 5px, 5px, 5px, 5px black; */
@@ -52,18 +49,18 @@ nav ul li:nth-child(1) {
 nav ul .first-row {
     list-style: none;
     padding-right: 25px;
-    margin: 25px 0px 5px 0px
+    margin: -25px 0px 5px 0px
     
 }
 /* sign out button style */
 nav ul #sign-out {
     border: 2px solid black;
     border-radius: 12px;
-    padding: 10px 5px 20px 5px;
+    padding: 5px 5px 5px 5px;
     width: 80px;
-    height: 40px;
+    height: 30px;
     position: relative;
-    top: 26px;
+    top:-15px;
     left: 10px;
     list-style: none;
     text-align: center;
@@ -72,34 +69,41 @@ nav ul #sign-out {
     position: relative;
     right: 280px;
     margin-right: 10px;
-    list-style: none;
+    margin-bottom: -25px;
 }
 
 #ul-list li:nth-child(1) {
     position: relative;
     left: -105px;
-    
+    margin-top: -30px;
+    list-style: none;
 }
 #ul-list li:nth-child(2) {
     position: relative;
     left: -30px;
-    
+    margin-top: -30px;
+    list-style: none;
 }
 
 #ul-list li:nth-child(3) {
     position: relative;
     left: 30px;
+    margin-top: -30px;
+    list-style: none;
 }
 
 #ul-list li:nth-child(4) {
     position: relative;
     left: 90px;
+    margin-top: -30px;
+    list-style: none;
 }
 
 #ul-list li:nth-child(5) {
     position: relative;
-    left: 145px;
-    
+    left: 140px;
+    margin-top: -30px;
+    list-style: none;
 }
 
 footer {
@@ -123,9 +127,8 @@ hr {
 .grid-container {
     display: inline-grid;
     grid-template-columns: 80px 80px 80px 80px;
-    /* border: 1px solid black; */
     width: 320px;
-    height: 500px;
+    height: 460px;
     padding: 30px 20px 30px 20px;
     
 
@@ -135,9 +138,7 @@ hr {
     text-align: center;
     padding-top: 10px;
 }
-/* .item-info-container {
-    margin-left: 40px;
-} */
+
 .item-info-container div span{
     color: lightskyblue;
     font-size: 30px;
@@ -148,15 +149,16 @@ hr {
 .gray {
     background-color: gray;
     text-align: center;
-    margin: 0px 0px 0px 100px;
+    margin: 0px 0px 0px 70px;
     height: 40px;
     padding: 10px 0px
 }
 .dark-gray {
     background-color: darkgray;
     text-align: center;
-    margin: 0px 0px 0px 100px;
+    margin: 0px 0px 0px 70px;
     height: 160px;
+    width: 220px;
     padding: 0px 0px 0px 0px;
     font-size: 120px;
     display: flex;
@@ -164,13 +166,75 @@ hr {
 }
 p {
     text-align: center;
-}img {
-    margin: 60px 0px 0px 20px;
-    height: 200px;
-    width: 200px;
+    padding: 2px 0px 2px 0px;
+    
 }
-.dark-gray .pick-amount {
+
+
+img {
+    margin: 60px 0px 0px 0px;
+    height: 200px;
+    width: 220px;
+}
+ span.pick-amount {
     position: relative;
     bottom: 40px;
-    right: 90px
+    right: 115px;
+    display: inline-block;
+    width: 160px;
+}
+
+ div.item-image {
+    width: 300px;
+    text-align: center;
+
+ }
+p.description {
+    width: 700px;
+    position: relative;
+    right: 220px;
+    top: 40px;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 0px;
+ } 
+ 
+ .secondary-img img {
+    margin: 60px 20px 0px 0px;
+ }
+ #status {
+    margin-left: 100px;
+    
+ }
+ #gold {
+    background-color: #87cefa;
+ }
+ #damage {
+    color: darkgrey;
+ }
+ .left {
+    display: flex;
+    /* border: 2px solid black; */
+    width: 300px;
+    height: 90px;
+    margin: 0px 0px -50px 0px;
+    transform: translateY(10px) translateX(80px);
+    justify-content: space-evenly
+ }
+ 
+ .left p span {
+    text-align: left;
+ }
+ .left hr {
+    height: 50px;
+ }
+.user-info {
+    display: flex;
+    position: relative;
+    bottom: 5px;
+    flex-direction: column;
+    
+}
+.user-info p {
+    text-align: left;
 }
