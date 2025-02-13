@@ -176,6 +176,13 @@ img {
     height: 200px;
     width: 220px;
 }
+.logo {
+    width: 50px;
+    height: 30px;
+    position: relative;
+    left: 80px;
+    bottom: 35px;
+}
  span.pick-amount {
     position: relative;
     bottom: 40px;
@@ -217,9 +224,10 @@ p.description {
     /* border: 2px solid black; */
     width: 300px;
     height: 90px;
-    margin: 0px 0px -50px 0px;
+    margin: 0px 0px -50px -20px;
     transform: translateY(10px) translateX(80px);
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    
  }
  
  .left p span {
